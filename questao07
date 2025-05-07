@@ -1,0 +1,19 @@
+quantidade = int(input('Digite a quantidade de peças: '))
+preco = quantidade * 0.5
+
+if quantidade <= 0:
+  print('Quantidade inválida.')
+elif quantidade > 100 and quantidade <=200:
+  desconto = preco - preco * 0.1
+  print('O valor a ser pago é R$', desconto)
+elif quantidade > 200 and quantidade <= 300:
+  desconto = preco - preco * 0.2
+  print('O valor a ser pago é R$', desconto)
+elif quantidade > 300 and quantidade <= 400:
+  desconto = preco - preco * 0.3
+  print('O valor a ser pago é R$', desconto)
+elif quantidade > 400:
+  desconto = preco - preco * 0.4
+  print('O valor a ser pago é R$', desconto)
+else:
+  print('O valor a ser pago é R$', preco)

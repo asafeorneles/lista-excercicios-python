@@ -1,0 +1,8 @@
+senha = 1234
+
+tentativa = int(input('Digite sua senha: '))
+
+if tentativa == senha:
+  print('ACESSO PERMITIDO')
+else:
+  print('ACESSO NEGADO')

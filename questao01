@@ -1,0 +1,7 @@
+numero = int(input('insira um numero: '))
+if numero <= 0:
+  print('Insira um número maior que 0!')
+elif numero % 2 == 0:
+  print('Numero par')
+else:
+  print('Numero ímpar.')

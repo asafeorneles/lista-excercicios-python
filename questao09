@@ -1,0 +1,11 @@
+numero = int(input('Digite um numero: '))
+
+atual = 1
+anterior = 0
+
+for i in range(numero):
+  print(atual, end= " ")
+
+  proximo = atual + anterior
+  anterior = atual
+  atual = proximo

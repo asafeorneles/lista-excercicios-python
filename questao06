@@ -1,0 +1,17 @@
+x = float(input('Digite um valor para x: '))
+y = float(input('Digite um valor para y: '))
+
+if x > 0 and y > 0:
+  print('O ponto esta no primeiro quadrante.')
+elif x < 0 and y > 0:
+  print('O ponto esta no segundo quadrante.')
+elif x < 0 and y < 0:
+  print('O ponto esta no terceiro quadrante.')
+elif x > 0 and y < 0:
+  print('O ponto esta no quarto quadrante.')
+elif x == 0 and y != 0:
+  print('O ponto esta no eixo y.')
+elif x != 0 and y == 0:
+  print('O ponto esta no eixo x.')
+else:
+  print('O ponto esta na origem (0,0).')
