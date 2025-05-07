@@ -1,4 +1,4 @@
-# lista-excercicios-python 🐍
+# lista de excercicios python 🐍
 Lista com exercícios de lógica de programação resolvidas na linguagem Python.
 O intuito da lista é praticar os conceitos da linguagem, aplicada na resolução de exercícios
 ### Enunciado:
